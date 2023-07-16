@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: beige;
+            height: 100vh;
+            width: 100vw;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            --brown-color: brown;
+            background-color: aqua;
+            width: 330px;
+            height: 630px;
+            border: 1px solid var(--brown-color);
+            margin: 4px;
+            padding: 4px;
+            /* box-shadow: -20px -15px black; */
+            /* box shadow using blur radius */
+
+            /* box-shadow: 10px 15px 25px brown;
+             */
+
+            /* add multiple shadow */
+            /* box-shadow: 10px 20px 20px green, 15px 2px red */
+        }
+
+        h2 {
+            text-shadow: 12px 2px 1px white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="./arrow_img.png" alt="">
+            <h2>welcome to my website</h2>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa velit magni facilis odio adipisci
+                    ducimus nam fugit, reprehenderit praesentium quasi magnam illo, nostrum quam officia sequi voluptas
+                    nes?</span><span>Aut tempora laudantium quos atque asperiores voluptatem molestiae ullam fuga,
+                    odio, qui enim rem deserunt labore, alias expedita saepe temporibus beatae. Quia neque reprehenderit
+                    praesentium numquam voluptas ducimus, ipsum aut!</span></p>
+        </div>
+    </div>
+</body>
+
+</html>
