@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Job Application</h2>
+    <form action="">
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="phone">Phone:</label>
+        <br>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+        <label for="resume">Resume:</label>
+        <br>
+        <input type="file" id="resume" name="resume">
+        <br><br>
+        <label for="experience">Experience (years)</label>
+        <br>
+        <input type="number" id="experience" name="experience" min="0" max="50">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Skills:</legend>
+            <input type="checkbox" id="html" name="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="js" name="js">
+            <label for="js">JavaScript</label>
+        </fieldset>
+        <br>
+        <label for="highEducation">Highest Education:</label>
+        <br>
+        <select name="highEducation" id="highEducation">
+            <option value="high school">High School</option>
+            <option value="middle school">Middle School</option>
+            <option value="elementary school">Elementary School</option>
+        </select>
+
+        <br>
+        <br>
+        <label for="avail">Availability:</label>
+        <br>
+        <input type="radio" id="avail" name="avail" value="Full-time">
+        <br>
+        <label for="avail">Full-time</label>
+        <br>
+        <input type="radio" id="avail" name="avail">
+        <br>
+        <label for="avail">Part-time</label>
+        <br><br>
+        <label for="addComments">Additional Comments</label>
+        <br>
+        <textarea name="addComments" id="addComments" cols="40" rows="4"></textarea>
+
+        <input type="button" value="Submit Application">
+    </form>
+</body>
+
+</html>
